@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "About page"
-    url: https://kaylee0917.github.io/
   - title: "About"
     url: /about/
   - title: "Stock News"
