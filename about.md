@@ -8,4 +8,5 @@ title: About
   I like to explore how to visualize any financial data using Python. Hope this blog helps!
   
   contact: fidly@naver.com
+
 {% endfor %}
