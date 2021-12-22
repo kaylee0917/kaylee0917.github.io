@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Python programming
+title: Python Programming
 ---
 
 {% for tag in site.tags %}
