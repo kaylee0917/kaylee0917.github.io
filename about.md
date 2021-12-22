@@ -1,9 +1,9 @@
 ---
-title: "About"
-permalink: /about/
-layout: single
+layout: page
+title: About
 ---
 
-## kaylee0917.github.io 블로그
-
-This is about page.
+{% for tag in site.tags %}
+  <h3>About this blog</h3>
+  Hi! My name is Kaylee.
+{% endfor %}
