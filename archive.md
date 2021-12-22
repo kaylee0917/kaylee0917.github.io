@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog Archive
+title: Python programming
 ---
 
 {% for tag in site.tags %}
