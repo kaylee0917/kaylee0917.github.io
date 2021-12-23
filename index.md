@@ -1,7 +1,3 @@
----
-layout: page
-title: Python Programming
----
 
 {% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>
