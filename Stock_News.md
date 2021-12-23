@@ -3,7 +3,7 @@ layout: page
 title: Stock News
 ---
    
-<header class="site-category">
+#<header class="site-category">
   <ul>
     
     {% assign pages_list = site.pages %}
@@ -17,4 +17,4 @@ title: Stock News
     {% endfor %}
     
 </ul>
-</header>
+#</header>
