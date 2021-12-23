@@ -1,3 +1,9 @@
+---
+title: "Stock News"
+layout: post
+categories: [stock_news]
+---
+
 **12-22-2021 Big Tech Stock Trend**
 
 
