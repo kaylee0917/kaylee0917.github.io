@@ -1,8 +1,2 @@
 
-{% for post in site.categories[Stock News] %}
-
-
-     {{ post.content }}
-
-
-{% endfor %}
+Welcome from index.md
