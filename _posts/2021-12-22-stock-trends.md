@@ -1,7 +1,7 @@
 ---
 title: "Stock News"
 layout: post
-categories: [stock_news]
+categories: [Stock News]
 ---
 
 **12-22-2021 Big Tech Stock Trend**
