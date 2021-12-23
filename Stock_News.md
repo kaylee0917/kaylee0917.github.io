@@ -2,14 +2,19 @@
 layout: page
 title: Stock News
 ---
-
-{% for tag in site.tags %}
-  <h3>Stock News</h3>
-
-{% endfor %}
-
-  #<ul>
- #   {% for post in tag[1] %}
- #     <li><a href="{{ post.url }}">{{ post.date | date: "%B %Y" }} - {{ post.title }}</a></li>
-#    {% endfor %}
-#  </ul>
+   
+<header class="site-category">
+  <ul>
+    
+    {% assign pages_list = site.pages %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "category" %}
+          <li><a class="category-link {% if page.url == node.url %} active{% endif %}"
+          href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    
+</ul>
+</header>
