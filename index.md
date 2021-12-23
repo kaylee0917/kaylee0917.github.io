@@ -1,3 +1,15 @@
+
+---
+layout: default
+---
+
+<div class="blog-index">  
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  {% include post_detail.html %}
+</div>
+
+
 **12-22-2021 Big Tech Stock Trend**
 
 
@@ -28,3 +40,6 @@ GOOGL:
 
 NVDA:
 [애플·엔비디아 추천 이유…테슬라 매도 진짜 끝?](https://www.hankyung.com/finance/article/202112237731i)
+
+
+
