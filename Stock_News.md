@@ -1,10 +1,9 @@
 ---
-layout: page
-title: Stock News
+layout: default
 ---
-
 <ul class="posts-list">
   
+  {% assign category = page.category | default: page.title %}
   {% for post in site.categories[category] %}
     <li>
       <h3>
