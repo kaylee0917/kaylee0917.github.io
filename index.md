@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 <ul class="posts-list">
   
@@ -16,3 +16,4 @@ layout: default
   {% endfor %}
   
 </ul>
+
