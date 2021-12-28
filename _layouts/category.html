@@ -2,25 +2,11 @@
 layout: default
 ---
 
-<div class="blog-index">  
-  {% assign post = page.posts.first %}
-  {% assign content = post.content %}   
-  <h1 class="entry-title">
-    <a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a>
-  </h1>
-{% if post.title %}
-  <h1 class="entry-title">
-    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
-  </h1>      
-{% endif %}
-<div class="entry-content">{{ content }}</div>
-  
-</div>
-
 <br></br>
 <ul class="posts-list">
   
   {% assign category = page.category | default: page.title %}
+  {{ post[0].content}}
   {% for post in site.categories[category] %}
     <li>
       <h3>
