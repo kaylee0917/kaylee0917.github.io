@@ -3,8 +3,8 @@ layout: default
 ---
 
 
-{{ "adam!" | capitalize | prepend: "Hello1 " }}
+{{ "adam!" | capitalize | prepend: "Hello2 " }}
 
-{% if page.category %}
-  <h1>{{ page.category }}</h1>
+{% if site.category %}
+  <h1>{{ site.category }}</h1>
 {% endif %}
