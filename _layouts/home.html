@@ -6,10 +6,11 @@ layout: default
 
 <ul class="posts-list">
   {% assign category = "Stock News" | default: page.title %}
-  {% for post in site.categories[category] %}
+  {% for post in site.categories[category] limit:1 %}
     <li>
       <h3>
           {{ post.title }}
+          {{ post.content }}
       </h3>
     </li>
   {% endfor %}
