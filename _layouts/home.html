@@ -9,8 +9,8 @@ layout: default
   {% if post in site.categories[category] %}
     <li>
       <h3>
-          {{ post[0].title }}
-          {{ post[0].content }}
+          {{ post.title }}
+          {{ post.content }}
       </h3>
     </li>
   {% endfor %}
