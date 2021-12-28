@@ -6,8 +6,9 @@ layout: default
 <ul class="posts-list">
   
   {% assign category = page.category | default: page.title %}
-  {{ post[0].content}}
+
   {% for post in site.categories[category] %}
+    {{ post[0].content}}
     <li>
       <h3>
         <a href="{{ site.baseurl }}{{ post.url }}">
