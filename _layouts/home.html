@@ -3,22 +3,11 @@ layout: default
 ---
 
 
-{{ "adam!" | capitalize | prepend: "Hello " }}
-
-{% if site.category %}
-  <h1>{{ site.category }}</h1>
-<p>1</p>
-
-{% endif %}
+{{ "adam!" | capitalize | prepend: "Hello1 " }}
 
 {% if site.categories %}
-  <h1>{{ site.categories }}</h1>
- <p>2</p>
-{% endif %}
-
-{% if site.categories[category] %}
   <h1>{{ site.categories[category] }}</h1>
-<p>3</p>
+ <p>2</p>
 {% endif %}
 
 <div class="blog-index">  
