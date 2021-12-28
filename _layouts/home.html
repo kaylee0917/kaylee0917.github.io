@@ -2,17 +2,13 @@
 layout: default
 ---
 
-{{ "adam!" | capitalize | prepend: "Hello1 " }}
-
-<ul class="posts-list">
+<ul class="latest post">
   {% assign category = "Stock News" | default: page.title %}
   {% for post in site.categories[category] limit:1 %}
-    <li>
-      <h3>
+      <h1>
           {{ post.title }}
           {{ post.content }}
-      </h3>
-    </li>
+      </h1>
   {% endfor %}
   
 </ul>
