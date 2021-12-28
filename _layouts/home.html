@@ -2,18 +2,15 @@
 layout: default
 ---
 
-
-{{ "adam!" | capitalize | prepend: "Hello3 " }}
+{{ "adam!" | capitalize | prepend: "Hello1 " }}
 
 <ul class="posts-list">
   {% assign category = "Stock News" | default: page.title %}
-  {% for post in site.categories[category] %}
+  {% if post in site.categories[category] %}
     <li>
       <h3>
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title }}
-        </a>
-        <small>{{ post.date | date_to_string }}</small>
+          {{ post[0].title }}
+          {{ post[0].content }}
       </h3>
     </li>
   {% endfor %}
