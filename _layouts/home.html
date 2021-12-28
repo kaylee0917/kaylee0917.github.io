@@ -3,10 +3,11 @@ layout: default
 ---
 
 
-{{ "adam!" | capitalize | prepend: "Hello2 " }}
+{{ "adam!" | capitalize | prepend: "Hello3 " }}
 
 <ul class="posts-list">
-  {% for post in site.categories[Stock News] %}
+  {% assign category = "Stock News" | default: page.title %}
+  {% for post in site.categories[category] %}
     <li>
       <h3>
         <a href="{{ site.baseurl }}{{ post.url }}">
