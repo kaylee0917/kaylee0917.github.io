@@ -6,7 +6,7 @@ categories: [Stock News]
 
 ** Big Tech Stock Trend**
 
-![python_2021-12-27 20-14-49@2x](https://user-images.githubusercontent.com/96516502/147527377-a1ee0e64-cb89-40e5-b826-36cd5f57385b.jpg){ width=50% }
+![python_2021-12-27 20-14-49@2x](https://user-images.githubusercontent.com/96516502/147527377-a1ee0e64-cb89-40e5-b826-36cd5f57385b.jpg){ width=20% }
 
 
 ** Big Tech News Highlight**
