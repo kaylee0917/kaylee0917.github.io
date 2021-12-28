@@ -3,15 +3,18 @@ layout: default
 ---
 
 
-{{ "adam!" | capitalize | prepend: "Hello1 " }}
+{{ "adam!" | capitalize | prepend: "Hello2 " }}
 
-{% if site.categories %}
-  <h1>{{ site.categories.name }}</h1>
- <p>2</p>
-{% endif %}
-
-<div class="blog-index">  
-  {% assign post = site.posts.first %}
-  {% assign content = post.content %}
-  {% include post_detail.html %}
-</div>
+<ul class="posts-list">
+  {% for post in site.categories[Stock News] %}
+    <li>
+      <h3>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          {{ post.title }}
+        </a>
+        <small>{{ post.date | date_to_string }}</small>
+      </h3>
+    </li>
+  {% endfor %}
+  
+</ul>
