@@ -35,4 +35,22 @@ Write-Host "This is a powershell Code block";
 ForEach ($thing in $things) {
     Write-Output "It highlights it using the GitHub style"
 }
+
+def get_difference_52wk_vs_price(ticker):
+    changes=[]
+    end = datetime.datetime.now()
+    start = end - datetime.timedelta(weeks=52)
+    
+    for k in range(len(ticker)):
+        df = web.DataReader(ticker[k], 'yahoo', start, end)
+        df = df.reset_index()
+    
+        highest_high = df['High'].max()
+        current_price = float(df[df['Date'] == '2021-12-27']['Adj Close'])
+        changes.append((1-current_price/highest_high)*100)
+        
+    data = {'stock': ticker, 'change': changes}
+    change_df = pd.DataFrame(data, columns=['stock', 'change'])
+    
+    return change_df
 ```
