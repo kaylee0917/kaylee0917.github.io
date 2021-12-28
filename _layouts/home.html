@@ -20,3 +20,9 @@ layout: default
   <h1>{{ site.categories[category] }}</h1>
 <p>3</p>
 {% endif %}
+
+<div class="blog-index">  
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  {% include post_detail.html %}
+</div>
