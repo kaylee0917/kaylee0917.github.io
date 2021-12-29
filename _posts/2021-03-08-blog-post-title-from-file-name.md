@@ -1,10 +1,10 @@
 ---
-title: "Read Stock Price using Python 파이썬으로 미국 주식 가격 읽기"
+title: "Read Stock Price using Python 파이썬으로 미국 주식 가격 읽어보자"
 layout: post
 categories: [Python Programming]
 ---
 
-## 파이썬으로 미국 주식 가격을 읽어보자
+## Read Stock Price using Python 파이썬으로 미국 주식 가격 읽어보자
 
 코드는 간단하다. 아래의 코드를 살펴보자.
 
