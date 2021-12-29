@@ -46,15 +46,13 @@ print(price_df)
 ```
 
 #### Output
+![image](https://user-images.githubusercontent.com/96516502/147707987-9ab36349-b3c5-4697-8dbd-7259708e3e31.png)
+
 | |stock|price|
 |------|---|---|
 |0|AAPL|179.380005|
 |1|AMZN|3384.020020|
 |2|INTC|51.830002|
-
-#### A capture of the output 
-![image](https://user-images.githubusercontent.com/96516502/147707173-38871680-249e-4bfa-9bec-609533685da6.png)
-
 
 ##### 문의사항
 contact: fidly@naver.com
