@@ -46,8 +46,6 @@ print(price_df)
 ```
 
 #### Output
-![image](https://user-images.githubusercontent.com/96516502/147707987-9ab36349-b3c5-4697-8dbd-7259708e3e31.png)
-
 | |stock|price|
 |------|---|---|
 |0|AAPL|179.380005|
