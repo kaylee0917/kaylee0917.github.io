@@ -54,3 +54,7 @@ print(price_df)
 
 #### A capture of the output 
 ![image](https://user-images.githubusercontent.com/96516502/147707173-38871680-249e-4bfa-9bec-609533685da6.png)
+
+
+#### 질문사항
+contact: fidly@naver.com
