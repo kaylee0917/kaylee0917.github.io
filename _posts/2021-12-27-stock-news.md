@@ -1,18 +1,48 @@
 ---
-title: "2021-12-27  Stock Trend"
+title: "2021-12-27 Stock News"
 layout: post
 categories: [Stock News]
 ---
 
-### Big Tech Stock Trend
+**Big Tech Stock Trend** 
 
 ![python_2021-12-27 20-14-49@2x](https://user-images.githubusercontent.com/96516502/147527377-a1ee0e64-cb89-40e5-b826-36cd5f57385b.jpg)
 
 
-### Big Tech News Highlight
+**Big Tech News Highlight**
+
+> 오미크론 확산 중에서도 상승주: 연말 연휴 쇼핑!!
+>> 다우존스 지수 상승 <br>
+>> 마이크로소프트(+2.32%) <br>
+>> 애플(+2.30%) <br>
+>> 세일스포스닷컴(+2.04%) <br>
+>> 시스코시스템스(+1.83%) <br>
+>> 홈디포(+1.77%) <br>
+>> DOW INC(+1.32%) <br>
+>> 인텔(+1.23%) <br>
+>> P&G(+1.17%) <br>
+
+> 오미크론 확산에 인해 하락주: 바깥 나들이 종목!! 크리스마스 연휴로도 안되네..
+>> 월트 디즈니(-0.54%)<br>
+>> 보잉(-0.51%) 
+
+> 빅테크 기업들이 인수한 회사들
+>> 페이스북: AI리버리(AI. Reverie) --> AI 개발 스타트업으로 페북이 앞으로 메타버스/머신러닝에 집중개발할 것으로 보임 <br>
+>> 마이크로소프트: 뉘앙스 --> 클라우드 집중 투자
+
+> 믿고 사는 빅테크, 주의해야할 사항은?
+>> 수많은 규제 기관들이 빅테크들의 방대해진 힘을 견제하기 시작함
+>> 
+```
+** 이번주 결론! **
+내년까지 주가전망이 좋은 애플/마소를 야금야금 모으자
+디즈니/비자/페이팔 당분간 추가 매수 금지!
+```
+
+**참조기사들**
 
 - FB
-  - [AI 스타트업 인수한 페이스북, '메타버스'에 활용한다](https://zdnet.co.kr/view/%3Fno%3D20211227092834)
+  - [AI 스타트업 인수한 페이스북, '메타버스'에 활용한다](https://zdnet.co.kr/view/?no=20211227092834)
 
 - AAPL
   - [애플, '코로나 확산' 뉴욕서 애플스토어 일시 폐쇄](http://www.wikileaks-kr.org/news/articleView.html%3Fidxno%3D120124)
@@ -21,8 +51,8 @@ categories: [Stock News]
 
 - MSFT
   - [뉴욕증시 다우 지수 '상승'...마이크로소프트·애플·인텔 '껑충' vs 디즈니 ...](https://www.choicenews.co.kr/news/articleView.html?idxno=87578)  
-  - [내년 마이크로소프트 클라우드는 어떻게 날까](https://zdnet.co.kr/view/%3Fno%3D20211224151202)
-  - [[美친주] MS, 클라우드 '애저' 성장↑… 'B2B 메타버스 시장 선두주자' - 머니S](https://moneys.mt.co.kr/news/mwView.php%3Fno%3D2021122717038082701)
+  - [내년 마이크로소프트 클라우드는 어떻게 날까](https://zdnet.co.kr/view/?no=20211224151202)
+  - [[美친주] MS, 클라우드 '애저' 성장↑… 'B2B 메타버스 시장 선두주자' - 머니S](https://moneys.mt.co.kr/news/mwView.php?no=2021122717038082701)
 
 - AMZN
   - [아마존도 급소 찔렸다...빅테크들 내년 최대 위기 맞을듯 [김성민의 실밸 레이더] - 조선일보](https://www.chosun.com/economy/tech_it/2021/12/23/VVR3BUSLDZFCHO7AVFVF2JHPDE/)
