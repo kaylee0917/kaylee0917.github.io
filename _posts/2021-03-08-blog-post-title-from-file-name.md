@@ -1,75 +1,38 @@
 ---
-title: "Post 1 title"
+title: "Read Stock Price using Python 파이썬으로 미국 주식 가격 읽기"
 layout: post
 categories: [Python Programming]
 ---
-## First Blog Post Title
-Blog Post Title From First Header
 
-Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
+## 파이썬으로 미국 주식 가격을 읽어보자
 
-If the file does not start with a header, then the post title will be derived from the filename.
-
-This is a sample blog post. You can talk about all sorts of fun things here.
+코드는 간단하다. 아래의 코드를 살펴보자.
 
 ---
 
-### This is a header
-
-#### Some T-SQL Code
-
-```tsql
-SELECT This, [Is], A, Code, Block -- Using SSMS style syntax highlighting
-    , REVERSE('abc')
-FROM dbo.SomeTable s
-    CROSS JOIN dbo.OtherTable o;
-    
-def get_difference_52wk_vs_price(ticker):
-    changes=[]
-    end = datetime.datetime.now()
-    start = end - datetime.timedelta(weeks=52)
-    
-    for k in range(len(ticker)):
-        df = web.DataReader(ticker[k], 'yahoo', start, end)
-        df = df.reset_index()
-    
-        highest_high = df['High'].max()
-        current_price = float(df[df['Date'] == '2021-12-27']['Adj Close'])
-        changes.append((1-current_price/highest_high)*100)
-        
-    data = {'stock': ticker, 'change': changes}
-    change_df = pd.DataFrame(data, columns=['stock', 'change'])
-    
-    return change_df
-    
-```
-
-#### Some PowerShell Code
+#### Python Code
 
 ```powershell
-Write-Host "This is a powershell Code block";
+import datetime
+import pandas as pd
+from pandas_datareader import data as web
 
-# There are many other languages you can use, but the style has to be loaded first
+end = datetime.datetime.now()
+start = end - datetime.timedelta(weeks=52)
 
-ForEach ($thing in $things) {
-    Write-Output "It highlights it using the GitHub style"
-}
+current_price = []
+ticker = ['AAPL', 'AMZN', 'INTC']
 
-def get_difference_52wk_vs_price(ticker):
-    changes=[]
-    end = datetime.datetime.now()
-    start = end - datetime.timedelta(weeks=52)
+for k in range(len(ticker)):
+    df = web.DataReader(ticker[k], 'yahoo', start, end)
+    df = df.reset_index()
+    current_price.append(float(df[df['Date'] == str(end.date())]['Adj Close']))
     
-    for k in range(len(ticker)):
-        df = web.DataReader(ticker[k], 'yahoo', start, end)
-        df = df.reset_index()
+data = {'stock': ticker, 'price': current_price}
+price_df = pd.DataFrame(data, columns=['stock', 'price'])
     
-        highest_high = df['High'].max()
-        current_price = float(df[df['Date'] == '2021-12-27']['Adj Close'])
-        changes.append((1-current_price/highest_high)*100)
-        
-    data = {'stock': ticker, 'change': changes}
-    change_df = pd.DataFrame(data, columns=['stock', 'change'])
-    
-    return change_df
+print(price_df)
 ```
+
+#### Output
+![image](https://user-images.githubusercontent.com/96516502/147637424-70470623-cd1d-4130-a3a9-569a6e4a01d4.png)
