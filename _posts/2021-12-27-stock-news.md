@@ -4,12 +4,13 @@ layout: post
 categories: [Stock News]
 ---
 
-** Big Tech Stock Trend**
+### Big Tech Stock Trend
 
 ![python_2021-12-27 20-14-49@2x](https://user-images.githubusercontent.com/96516502/147527377-a1ee0e64-cb89-40e5-b826-36cd5f57385b.jpg)
 
 
-** Big Tech News Highlight**
+### Big Tech News Highlight
+
 - FB
   - [AI 스타트업 인수한 페이스북, '메타버스'에 활용한다](https://zdnet.co.kr/view/%3Fno%3D20211227092834)
 
