@@ -6,9 +6,19 @@ categories: [Python Programming]
 
 ## Read Stock Price using Python 파이썬으로 미국 주식 가격 읽어보자
 
-코드는 간단하다. 아래의 코드를 살펴보자.
+We are going to use pandas_datareader to pull stock price from Yahoo. Details are shown below: <br>
+- end: today's time
+- start: 52 weeks ago from today's time
+- ticker: AAPL, AMZN, and INTC tickers are used as an example
+- price_df: dataframe with 2 columes. colume 1 has the name of stock and colume 2 has the current price for the corresponding stock.
 
----
+pandas_datareader를 이용하여 Yahoo에서 미국 주식 가격을 읽어보도록 한다. 자세한 변수 설명은 밑에 나와 있다.<br>
+- end: 오늘 날짜/시각
+- start: 오늘로 부터 52주 전의 날짜/시각
+- ticker: AAPL, AMZN, and INTC 티커들이 예제로 사용됨
+- price_df: 최종 데이터프레임이 저장되는 변수. 티커 이름은 colume 1에 'stock'이라는 이름으로 저장, 해당 티커 현재 가격은 colume 2에 'price'이라는 이름으로 저장됨.
+
+* * * 
 
 #### Python Code
 
@@ -42,5 +52,5 @@ print(price_df)
 |1|AMZN|3384.020020|
 |2|INTC|51.830002|
 
-#### Output image
+#### A capture of the output 
 ![image](https://user-images.githubusercontent.com/96516502/147707173-38871680-249e-4bfa-9bec-609533685da6.png)
