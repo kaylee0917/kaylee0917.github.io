@@ -4,13 +4,14 @@ layout: post
 categories: [Stock News]
 ---
 
-**Big Tech Stock Trend** 
+## 2021-12-27 Stock News
 
+
+**Big Tech Stock Trend** 
 ![python_2021-12-27 20-14-49@2x](https://user-images.githubusercontent.com/96516502/147527377-a1ee0e64-cb89-40e5-b826-36cd5f57385b.jpg)
 
 
 **Big Tech News Highlight**
-
 ## 오미크론 확산 중에서도 상승주: 연말 연휴 쇼핑!!
 - 다우존스 지수 상승 
 - 마이크로소프트(+2.32%) 
