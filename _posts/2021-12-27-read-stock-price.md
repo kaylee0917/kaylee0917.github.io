@@ -30,9 +30,17 @@ for k in range(len(ticker)):
     
 data = {'stock': ticker, 'price': current_price}
 price_df = pd.DataFrame(data, columns=['stock', 'price'])
-    
+
+df.to_excel('./stock_price.xlsx')
 print(price_df)
 ```
 
 #### Output
-![image](https://user-images.githubusercontent.com/96516502/147637424-70470623-cd1d-4130-a3a9-569a6e4a01d4.png)
+| |stock|price|
+|------|---|---|
+|0|AAPL|179.380005|
+|1|AMZN|3384.020020|
+|2|INTC|51.830002|
+
+#### Output image
+![image](https://user-images.githubusercontent.com/96516502/147707173-38871680-249e-4bfa-9bec-609533685da6.png)
