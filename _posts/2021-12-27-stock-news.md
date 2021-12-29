@@ -43,4 +43,4 @@ categories: [Stock News]
  
 - 테슬라
   - [이번 주 주목해야 할 주식 3종목: 테슬라, 델타항공, 화이자](https://kr.investing.com/analysis/article-200438511)
-  - ['테슬라 땡큐'…`중국산 전기차 배터리` 점유량, 북미서 5000% 폭증한 이유는](https://www.mk.co.kr/news/world/view/2021/12/1208563/)---
+  - ['테슬라 땡큐'…`중국산 전기차 배터리` 점유량, 북미서 5000% 폭증한 이유는](https://www.mk.co.kr/news/world/view/2021/12/1208563/)
