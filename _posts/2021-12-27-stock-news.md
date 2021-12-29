@@ -20,7 +20,7 @@ categories: [Stock News]
   - [애플 제품 생산량 감소는 TI 아날로그칩 공급 부족 때문](https://www.hellot.net/news/article.html%3Fno%3D64579)
 
 - MSFT
-  - [뉴욕증시 다우 지수 '상승'...마이크로소프트·애플·인텔 '껑충' vs 디즈니 ...](http://www.choicenews.co.kr/news/articleView.html%3Fidxno%3D87578)  
+  - [뉴욕증시 다우 지수 '상승'...마이크로소프트·애플·인텔 '껑충' vs 디즈니 ...](https://www.choicenews.co.kr/news/articleView.html?idxno=87578)  
   - [내년 마이크로소프트 클라우드는 어떻게 날까](https://zdnet.co.kr/view/%3Fno%3D20211224151202)
   - [[美친주] MS, 클라우드 '애저' 성장↑… 'B2B 메타버스 시장 선두주자' - 머니S](https://moneys.mt.co.kr/news/mwView.php%3Fno%3D2021122717038082701)
 
