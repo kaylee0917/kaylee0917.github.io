@@ -12,7 +12,7 @@ categories: [Python Programming]
 
 #### Python Code
 
-```powershell
+``` Python
 import datetime
 import pandas as pd
 from pandas_datareader import data as web
