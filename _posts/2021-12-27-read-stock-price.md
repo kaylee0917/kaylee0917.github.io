@@ -1,6 +1,6 @@
 ---
 title: "Read Stock Price using Python 파이썬으로 미국 주식 가격 읽어보자"
-layout: default
+layout: post
 categories: [Python Programming]
 ---
 
