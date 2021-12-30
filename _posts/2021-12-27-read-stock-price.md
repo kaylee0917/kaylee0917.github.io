@@ -46,6 +46,7 @@ print(price_df)
 ```
 
 #### Output
+
 | |stock|price|
 |------|---|---|
 |0|AAPL|179.380005|
