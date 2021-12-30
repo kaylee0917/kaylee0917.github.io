@@ -22,7 +22,7 @@ categories: [Python Programming]
 
 #### Python Code
 
-``` Python
+```Python
 import datetime
 import pandas as pd
 from pandas_datareader import data as web
