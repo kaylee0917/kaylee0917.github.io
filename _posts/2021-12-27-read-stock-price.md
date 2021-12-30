@@ -24,7 +24,7 @@ categories: [Python Programming]
 
 #### Python Code
 
-```javascript
+```python
 
 import datetime
 import pandas as pd
