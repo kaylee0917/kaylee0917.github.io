@@ -22,7 +22,8 @@ categories: [Python Programming]
 
 #### Python Code
 
-```Python
+```python
+
 import datetime
 import pandas as pd
 from pandas_datareader import data as web
@@ -43,6 +44,32 @@ price_df = pd.DataFrame(data, columns=['stock', 'price'])
 
 df.to_excel('./stock_price.xlsx')
 print(price_df)
+
+```
+
+```powershell
+
+import datetime
+import pandas as pd
+from pandas_datareader import data as web
+
+end = datetime.datetime.now()
+start = end - datetime.timedelta(weeks=52)
+
+current_price = []
+ticker = ['AAPL', 'AMZN', 'INTC']
+
+for k in range(len(ticker)):
+    df = web.DataReader(ticker[k], 'yahoo', start, end)
+    df = df.reset_index()
+    current_price.append(float(df[df['Date'] == str(end.date())]['Adj Close']))
+    
+data = {'stock': ticker, 'price': current_price}
+price_df = pd.DataFrame(data, columns=['stock', 'price'])
+
+df.to_excel('./stock_price.xlsx')
+print(price_df)
+
 ```
 
 #### Output
