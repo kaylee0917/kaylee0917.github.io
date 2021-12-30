@@ -80,12 +80,7 @@ categories: [Stock News]
   - [엔비디아 시총 126% 뛴 비결 'AI 반도체' 뭐길래?…SKT까지 출격](https://www.sisaon.co.kr/news/articleView.html%3Fidxno%3D134843)
 
 - INTEL
-  - [미국 공장 건설에 속도 늦춘 인텔, 보조금 정책이 관건](https://byline.network/2021/12/27-172/)
   - [9부 능선 넘은 SK하이닉스 인텔 낸드사업 인수…반도체 주도권 잡을까[딜리뷰]](https://www.hankyung.com/economy/article/202112242286i)
-  - [[반도체 5强] 인텔 IDM 2.0 완성할 세 가지 전략, '순항과 난항 사이'](https://www.hellot.net/news/article.html%3Fno%3D64562)
-  - [인텔 엘더레이크 4코어 CPU 벤치마크 유출, AMD 쿼드코어 CPU 어떡 ...](https://kbench.com/%3Fq%3Dnode/228466)
-  - [신장 불매’ 논란 커지자 수습 나선 인텔 “존경하는 中 고객들에 사과” - 조선비즈](https://biz.chosun.com/international/international_economy/2021/12/23/FOOBGMZ5W5CM3I3YYW7WRQSPYI/)
-  - [인텔, 이탈리아에 10조원 규모 반도체 패키징 공장 건설 추진 - 조선비즈](https://biz.chosun.com/international/international_economy/2021/12/24/3JEAUDNN2FHRPKRTL2WTXWNDGI/)
  
 - 테슬라
   - [이번 주 주목해야 할 주식 3종목: 테슬라, 델타항공, 화이자](https://kr.investing.com/analysis/article-200438511)
