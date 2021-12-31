@@ -25,7 +25,6 @@ categories: [Python Programming]
 #### Python Code
 
 ```python
-
 import datetime
 import pandas as pd
 from pandas_datareader import data as web
@@ -46,7 +45,6 @@ price_df = pd.DataFrame(data, columns=['stock', 'price'])
 
 df.to_excel('./stock_price.xlsx')
 print(price_df)
-
 ```
 
 #### Output
