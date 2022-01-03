@@ -67,7 +67,7 @@ Cash Flow Coverage Ratio = Net Cash Flow from Operations / Total Debt
 - How much does the business owe?
 - Is there more money coming in or going out?
 
-
+https://www.youtube.com/watch?v=NUw4d3Z7cc8
 
 python
 - price trend comparison
