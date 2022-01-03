@@ -33,7 +33,7 @@ blogs
 - **Net income (=earnings=bottom line)**: From there, the company's cost of sales is subtracted to produce its gross income. Its operating costs (like research and development) are subtracted to calculate its operating income. Then income tax expenses are subtracted, and the result is the company's net income, also known as its "earnings." Net income is often expressed both as one large number and by share (the latter being earnings per share, or EPS).
   - Net income = Revenue - COGS - operating expenses - taxes
 
-- Analysis
+## INCOME STATEMENT Analysis
 ```
 Gross profit margin = (Revenue - COGS) / Revenue
 Net Profit Margin = Net Income / Sales Revenue
@@ -41,9 +41,15 @@ Net Profit Margin = Net Income / Sales Revenue
 * * *
 
 ### BALANCE SHEET: a company's financial condition at a given time
-- Assets = Liabilities + Equity
-- Analysis
+- Current Assets
+- Non-Current Assets (long-term assets)
+- Current Liabilities
+- Non-Current Liabilities (long-term liabilities)
+- Equity
+
+## BALANCE SHEET Analysis
 ```
+Accounting equation: Assets = Liabilities + Equity
 Liquidity Ratio = Current Assets / Current Liabilities (worse if lower)
 ```
 * * *
@@ -53,7 +59,8 @@ Liquidity Ratio = Current Assets / Current Liabilities (worse if lower)
 - Account payable (+/-)
 - Cash from Investing Activities(+/-)
 - Cash from Financing Activities(+/-)
-- Analysis
+
+## CASH FLOW STATEMENT Analysis
 ```
 Cash Flow Coverage Ratio = Net Cash Flow from Operations / Total Debt
 ```
@@ -68,6 +75,8 @@ Cash Flow Coverage Ratio = Net Cash Flow from Operations / Total Debt
 - Is there more money coming in or going out?
 
 https://www.youtube.com/watch?v=NUw4d3Z7cc8
+https://www.youtube.com/watch?v=__5ZscqYQiw
+
 
 python
 - price trend comparison
