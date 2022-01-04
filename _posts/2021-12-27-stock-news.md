@@ -1,7 +1,7 @@
 ---
 title: "2021-12-27 Stock News"
 layout: post
-categories: [StockNews]
+categories: StockNews
 ---
 
 #### 2021-12-27 Stock News
