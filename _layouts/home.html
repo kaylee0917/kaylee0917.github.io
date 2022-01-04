@@ -3,7 +3,7 @@ layout: default
 ---
 
 <ul class="latest post">
-  {% assign category = "Stock News" | default: page.title %}
+  {% assign category = "StockNews" | default: page.title %}
   {% for post in site.categories[category] limit:1 %}
       <h1>
           {{ post.title }}
