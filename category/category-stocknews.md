@@ -2,6 +2,6 @@
 
 layout: category
 
-title: Stock News
+title: StockNews
 
 ---
